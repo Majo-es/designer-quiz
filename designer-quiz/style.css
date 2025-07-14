@@ -1,0 +1,100 @@
+/*google fonts for css*/
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:regular,italic");
+
+* {
+  font-family: 'EB Garamond', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  width: 600px;
+}
+
+/*rem =  returns a remainder left over when the first parameter is divided by the second parameter */
+h1 {
+  font-size: 30px;
+  text-align: center;
+  /*font-size: 2.5rem;*/
+  /*line-height: 1.05 ;*/
+}
+
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  /*text-shadow: 2px 2px black;*/
+  text-shadow: 2px 2px 4px #000000;
+   /*font-size: 3.5rem;*/
+  /*line-height: 1.05;*/
+}
+
+
+p {
+  font-size: 20px;
+  text-align: center;
+  /*font-size: 1.125 rem;*/
+  /*line-height: 1.2;*/
+}
+
+/*RGBA = (red, green, blue, alpha)*/
+/*RGB= (red, green, blue)*/
+
+.title-block {
+  width: 600px;
+  height: 210px;
+  background-color: rgb(190, 188, 188);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: rgb(255, 255, 255);
+}
+
+.answer-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 16px 0 23px 0;
+}
+
+.answer-block {
+  width: 286px;
+  height: 286px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0 0 0 1px;
+  text-align: center;
+  margin-bottom: 15px;
+  /* property control if it’s too big*/
+  overflow: hidden;
+}
+
+.answer-block img {
+  width: 100%;
+  height: 50%;
+}
+
+.answer-block p {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.answer-block a {
+  color: rgb(137, 137, 137);
+}
+
+.result-block {
+  width: 600px;
+  background-color: rgb(255, 255, 255);  
+  border-radius: 10px;
+  border: groove rgb(171, 208, 243) 10px;
+}
+
+.result-block img {
+  /*width: 100%;*/
+  max-width: 100%;
+ 
+}
